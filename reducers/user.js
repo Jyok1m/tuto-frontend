@@ -11,7 +11,6 @@ export const userSlice = createSlice({
 	reducers: {
 		connectUser: (state, action) => {
 			state.value.firstname = action.payload.firstname;
-      console.log(action.payload.firstname);
 		},
 		disconnectUser: (state) => {
 			state.value.firstname = null;
